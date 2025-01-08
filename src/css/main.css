@@ -14,6 +14,7 @@ body {
 
 
 /* Reset CSS */
+body,
 div,
 span,
 applet,
@@ -133,6 +134,10 @@ q:before,
 q:after {
     content: '';
     content: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 table {
