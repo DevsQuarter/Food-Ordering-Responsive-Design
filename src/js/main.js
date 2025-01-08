@@ -9,6 +9,8 @@ $(document).ready(() => {
   $('#service').load('src/partials/service.html');
   // Menu
   $('#menu').load('src/partials/menu.html');
+  // Advertisement
+  $('#advertisement').load('src/partials/advertisement.html');
   // Footer
   $('#page-footer').load('src/partials/footer.html');
 });
