@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(180deg, rgba(245, 71, 72, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#hero {
+    width: 1440px;
+    margin: auto;
+    padding: 151px 70px;
+    border: 1px solid black;
+}
+
+#hero .hero-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 96px;
+}
+
+#hero .hero-container .content .title {
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 78.3px;
+    width: 530px;
+}
+
+#hero .hero-container .content .title .title-span {
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 78.3px;
+}
+
+#hero .hero-container .content .title .title-span.red {
+    color: #F54748;
+}
+
+#hero .hero-container .content .title .title-span.yellow {
+    color: #FDC55E;
+}
