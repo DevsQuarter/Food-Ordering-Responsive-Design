@@ -9,11 +9,14 @@
 @import url("footer.css");
 
 body {
-    font-family: "Sofia Pro", serif;
+
+    font-family: 'Sofia Pro', sans-serif;
+
 }
 
 
 /* Reset CSS */
+body,
 div,
 span,
 applet,
@@ -133,6 +136,10 @@ q:before,
 q:after {
     content: '';
     content: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 table {
