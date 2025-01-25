@@ -17,8 +17,6 @@ body {
 
 .hero-container .content {
   width: 530px;
-
-  /* flex: 1; */
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -81,4 +79,38 @@ body {
   gap: 6px;
   padding: 5px;
   border-radius: 100px;
+}
+
+.hero-container .content .hero-search-form {
+  margin-top: 7px;
+  margin-right: 46px;
+  margin-bottom: 14px;
+
+  /* border: 1px solid black; */
+  border: 0.5px solid #191919;
+  border-radius: 100px;
+  width: 100%;
+}
+
+.hero-container .content .hero-search-form .search-group {
+  width: 100%;
+  padding: 6px 9px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-container .content .hero-search-form .search-group .search-icon {
+  flex: 1;
+  margin-block: 10px;
+  margin-right: 12px;
+}
+.hero-container .content .hero-search-form .search-group .search-input {
+  width: 85%;
+  outline: none;
+  border: none;
+  align-content: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.16px;
+  letter-spacing: -0.01em;
 }
