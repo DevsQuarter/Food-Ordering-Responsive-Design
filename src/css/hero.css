@@ -14,23 +14,71 @@ body {
   gap: 96px;
   padding-block: 20px;
 }
-.content .title {
+
+.hero-container .content {
+  width: 530px;
+
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero-container .media {
+  flex: 1;
+}
+
+.hero-container .content .title {
   font-size: 58px;
   font-weight: 900;
   line-height: 78.3px;
   color: black;
+  position: relative;
+}
+.hero-container .content #decore {
+  margin-top: -50px;
+  width: 263px;
+  height: 8.2px;
+  position: absolute;
+  bottom: 0;
+  left: 36%;
 }
 
-.content .title .title-span {
+.hero-container .content #orange {
+  width: 84px;
+  height: 74px;
+  position: absolute;
+  right: -5%;
+  top: 10px;
+}
+
+.hero-container .content .subTitle {
+  color: rgba(25, 25, 25, 0.8);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.21px;
+  letter-spacing: -0.01em;
+}
+
+.hero-container .content .title .title-span {
   font-size: 58px;
   font-weight: 900;
   line-height: 78.3px;
 }
 
-#hero .hero-container .content .title .title-span.red {
+.hero-container .content .title .title-span.red {
   color: #f54748;
 }
 
-#hero .hero-container .content .title .title-span.yellow {
+.hero-container .content .title .title-span.yellow {
   color: #fdc55e;
+}
+
+.hero-container .content #group8428 {
+  width: fit-content;
+  background-color: rgba(245, 71, 72, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px;
+  border-radius: 100px;
 }
