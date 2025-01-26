@@ -1,1 +1,204 @@
-/* Hero css  */
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(245, 71, 72, 0.06) 0%,
+    rgba(245, 71, 72, 0) 100%
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 96px;
+  padding-block: 20px;
+}
+
+.hero-container .content {
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero-container .media {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-container .content .title {
+  font-size: 58px;
+  font-weight: 900;
+  line-height: 78.3px;
+  color: black;
+  position: relative;
+}
+.hero-container .content #decore {
+  margin-top: -50px;
+  width: 263px;
+  height: 8.2px;
+  position: absolute;
+  bottom: 0;
+  left: 36%;
+}
+
+.hero-container .content #orange {
+  width: 84px;
+  height: 74px;
+  position: absolute;
+  right: -5%;
+  top: 10px;
+}
+
+.hero-container .content .subTitle {
+  color: rgba(25, 25, 25, 0.8);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.21px;
+  letter-spacing: -0.01em;
+}
+
+.hero-container .content .title .title-span {
+  font-size: 58px;
+  font-weight: 900;
+  line-height: 78.3px;
+}
+
+.hero-container .content .title .title-span.red {
+  color: #f54748;
+}
+
+.hero-container .content .title .title-span.yellow {
+  color: #fdc55e;
+}
+
+.hero-container .content #group8428 {
+  width: fit-content;
+  background-color: rgba(245, 71, 72, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px;
+  border-radius: 100px;
+}
+
+.hero-container .content .hero-search-form {
+  margin-top: 7px;
+  margin-right: 46px;
+  margin-bottom: 14px;
+
+  /* border: 1px solid black; */
+  border: 0.5px solid #191919;
+  border-radius: 100px;
+  width: 100%;
+}
+
+.hero-container .content .hero-search-form .search-group {
+  width: 100%;
+  padding: 6px 9px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-container .content .hero-search-form .search-group .search-icon {
+  flex: 1;
+  margin-block: 10px;
+  margin-right: 12px;
+  fill: black;
+}
+.hero-container .content .hero-search-form .search-group .search-input {
+  width: 85%;
+  outline: none;
+  border: none;
+  align-content: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.16px;
+  letter-spacing: -0.01em;
+}
+.hero-container .content .hero-search-form .search-group .search-button {
+  align-content: center;
+  padding: 0;
+  width: 48px;
+  height: 48px;
+  background-color: #fdc55e;
+  border-radius: 100px;
+  fill: #fff;
+  color: #fff;
+  border: none;
+}
+.hero-container
+  .content
+  .hero-search-form
+  .search-group
+  .search-button
+  .search-button-icon {
+  mix-blend-mode: color-dodge; /* işin sırrı burada */
+  fill: #000; /* burası istediğimiz renk olabilir */
+}
+
+.hero-container .content .buttons {
+  display: flex;
+  gap: 31px;
+  color: grey;
+}
+
+.hero-container .content .buttons .trns-btn {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+  width: 183px;
+  height: 52px;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25.5px;
+  color: #686d77;
+}
+.hero-container .content .buttons .trns-btn .play {
+  text-align: center;
+  align-content: center;
+  background-color: #fff;
+  box-shadow: 0px 15px 30px 0px #df69514d;
+  /* padding: 20px; */
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+}
+
+.hero-container .media {
+  position: relative;
+}
+
+.hero-container .media #group85356 {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+  width: 170px;
+  padding: 10px 13px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  position: absolute;
+  top: 156px;
+  left: 25px;
+}
+
+.hero-container .media #group85356 .content {
+  align-content: center;
+  text-align: left;
+  gap: 4px;
+  margin-block: 4px;
+}
+
+.hero-container .media #emojione_fire {
+  position: absolute;
+  top: -20px;
+  left: 38%;
+}
+
+.hero-container .media #SeekPng {
+  position: absolute;
+  top: 15px;
+  right: 33%;
+}
