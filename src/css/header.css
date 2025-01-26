@@ -1,27 +1,48 @@
+/* Header Css  */
+#page-header {
+  padding: 32px 70px;
+  background-color: transparent;
+  width: 1440px;
+  margin: auto;
+}
+
 #page-header .header-container {
   display: flex;
   justify-content: space-between;
-  padding-block: 32px;
+  padding: 0;
 }
 
-.header-container .navbar {
-  /* border: 1px solid red; */
+#page-header .header-container .navbar {
   display: flex;
-  gap: 96px;
-  align-items: center;
   justify-content: space-between;
+  gap: 96px;
 }
-.header-container .navbar .nav-list {
+
+#page-header .header-container .navbar .nav-list {
+  margin-top: 15px;
   display: flex;
   gap: 50px;
-  color: black;
 }
-.header-container .navbar .nav-list .nav-item .nav-link {
-  font-family: Sofia Pro;
+
+#page-header .header-container .navbar .nav-list .nav-item {
+  height: max-content;
+}
+
+#page-header .header-container .navbar .nav-list .nav-item .nav-link {
+  text-decoration: none;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.16px;
   color: #191919;
+}
+
+#page-header
+  .header-container
+  .navbar
+  .navbar-list
+  .navbar-item:hover
+  .navbar-link {
+  color: #f54748;
 }
 
 .page-btn {
