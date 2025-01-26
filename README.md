@@ -12,4 +12,3 @@
         </td>
     </tr>
 </table>
-![alt text](image-1.png)

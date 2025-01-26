@@ -12,6 +12,7 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: center; 
+    margin-bottom: 204px;
 }
 
 .menu-title{
@@ -47,14 +48,18 @@ body{
     font-size: 18px;
     line-height: 24.16px;
     text-transform: capitalize;
-    opacity: 60%;
+    opacity: 0.6;
 }
 
 .menu-nav-btn:hover, .menu-nav-btn:active, .menu-nav-btn:focus {
     background-color: rgba(245, 71, 72, 1);
     border: 2px solid rgba(245, 71, 72, 1);
     color: rgba(255, 255, 255, 1);
-    opacity: 100%;
+    border-radius: 100px;
+    font-size: 18px;
+    line-height: 24.16px;
+    text-transform: capitalize;
+    opacity: 1;
 }
 
 .menu-panel{
@@ -178,4 +183,20 @@ body{
 .menu-item-btn:hover, .menu-item-btn:focus {
     background-color: orange;
     border: 2px solid orange;
+}
+
+.menu-panel{
+    display: none;
+}
+
+.menu-panel:first-child{
+    display:flex;
+}
+
+#menu-nav-btn2:focus + .menu-panel:nth-child(2){
+    display: flex;
+}
+
+#menu-nav-btn2:focus + .menu-panel:first-child {
+    display: none;
 }
