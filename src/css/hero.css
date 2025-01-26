@@ -165,3 +165,43 @@ body {
   width: 52px;
   height: 52px;
 }
+
+.hero-container .media {
+  position: relative;
+}
+
+.hero-container .media #Meal-PNG-2 {
+}
+
+.hero-container .media #group85356 {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+  width: 170px;
+  padding: 10px 13px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  position: absolute;
+  top: 156px;
+  left: 25px;
+}
+
+.hero-container .media #group85356 .content {
+  align-content: center;
+  text-align: left;
+  gap: 4px;
+  margin-block: 4px;
+}
+
+.hero-container .media #emojione_fire {
+  position: absolute;
+  top: -20px;
+  left: 38%;
+}
+
+.hero-container .media #SeekPng {
+  position: absolute;
+  top: 15px;
+  right: 33%;
+}
