@@ -60,12 +60,12 @@ const showMenu = {
 // var defaultBtnStyle = getComputedStyle(document.getElementsByClassName(".menu-nav-btn"));
 // var selectedBtnStyle = getComputedStyle(document.getElementsByClassName(".menu-nav-btn:active"));
 
-document.getElementById("menu-nav-btn1").onclick = showMenu.showMenu1();
-document.getElementById("menu-nav-btn2").onclick = showMenu.showMenu2();
-document.getElementById("menu-nav-btn3").onclick = showMenu.showMenu3();
-document.getElementById("menu-nav-btn4").onclick = showMenu.showMenu4();
-document.getElementById("menu-nav-btn5").onclick = showMenu.showMenu5();
-document.getElementById("menu-nav-btn6").onclick = showMenu.showMenu6();
-document.getElementById("menu-nav-btn7").onclick = showMenu.showMenu7();
-document.getElementById("menu-nav-btn8").onclick = showMenu.showMenu8();
+// document.getElementById("menu-nav-btn1").onclick = showMenu.showMenu1();
+// document.getElementById("menu-nav-btn2").onclick = showMenu.showMenu2();
+// document.getElementById("menu-nav-btn3").onclick = showMenu.showMenu3();
+// document.getElementById("menu-nav-btn4").onclick = showMenu.showMenu4();
+// document.getElementById("menu-nav-btn5").onclick = showMenu.showMenu5();
+// document.getElementById("menu-nav-btn6").onclick = showMenu.showMenu6();
+// document.getElementById("menu-nav-btn7").onclick = showMenu.showMenu7();
+// document.getElementById("menu-nav-btn8").onclick = showMenu.showMenu8();
 
